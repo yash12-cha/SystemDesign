@@ -43,3 +43,11 @@ buyer_manager = BuyerManager(
     buyer_1_data.get("email"),
 )
 buyer_manager.add_buyer()
+
+buyer_manager = BuyerManager(
+    buyer_2_data.get("name"),
+    buyer_2_data.get("phone_no"),
+    buyer_2_data.get("address"),
+    buyer_2_data.get("email"),
+)
+buyer_manager.add_buyer()
